@@ -1,7 +1,7 @@
 # bootstrap-work
 通过npm和webpack安装使用bootstrap3
 
-Build Setup
+# Build Setup
 # install dependencies
 npm install
 
