@@ -17,6 +17,23 @@ module.exports = {
         {
             test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
             loader: 'file-loader?name=font/[hash].[ext]'
+        },
+        {
+            test:/\.(png|jpg|gif|svg)$/i,
+            loader:[
+                'url-loader?limit=20000&name=img/[name].[ext]',
+                'image-webpack-loader'
+            ]
+        },
+        {
+            test: /\.(html)$/,
+            use: {
+                loader: 'html-loader',
+                options: {
+                    attrs: ['img:src', 'img:data-src', 'audio:src'],
+                    minimize: true
+                }
+            }
         }
     ]
   },
