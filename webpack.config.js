@@ -34,6 +34,16 @@ module.exports = {
                     minimize: true
                 }
             }
+        },
+        {
+            test: require.resolve('jquery'),
+            use: [{
+               loader: 'expose-loader',
+               options: 'jQuery'
+            },{
+               loader: 'expose-loader',
+               options: '$'
+            }]
         }
     ]
   },
@@ -41,12 +51,13 @@ module.exports = {
   	new htmlWebpackPlugin({
   		template:'./index.html'  //模板文件
       }),
-      new webpack.ProvidePlugin({
+    new webpack.ProvidePlugin({
         "$": "jquery",
         "jQuery": "jquery",
         "window.jQuery": "jquery"
     })
-  ],  //插件，用于生产模版和各项功能
+  ],  
+  //插件，用于生产模版和各项功能
     mode: 'development',  //打包模式，默认生产者模式,
     devServer:{
         contentBase:path.resolve(__dirname,'dist'), //基本目录结构，监听哪里的代码
