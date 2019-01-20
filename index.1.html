@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>bootstrap template</title>
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="height:2000px;margin-top: 80px;">
+
+    <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">我是网站Logo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+
+                <button class="btn btn-default navbar-btn">搜索</button>
+                <a href="#" class="navbar-link">链接</a>
+                <p class="navbar-left navbar-text">我是文字</p>
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+    </div>
+    </nav>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                col
+                <p><img width="100%" src="src/img/b.jpg" alt=""></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                col
+                <div class="img"></div> 
+                <p><img width="100%" src="src/img/b.jpg" alt=""></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                col
+                <p><img width="100%" src="src/img/b.jpg" alt=""></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                col
+                <p><img width="100%" src="src/img/b.jpg" alt=""></p>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="src/img/b.jpg" alt="">
+                    <div class="caption">
+                        <h3>我是缩略图标题</h3>
+                        <p>
+                            我是缩略图内容
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-primary">确定</a>
+                            <a href="#" class="btn btn-default">取消</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="src/img/b.jpg" alt="">
+                    <div class="caption">
+                        <h3>我是缩略图标题</h3>
+                        <p>
+                            我是缩略图内容
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Action</a>
+                            <a href="#" class="btn btn-default">Action</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="src/img/b.jpg" alt="">
+                    <div class="caption">
+                        <h3>我是缩略图标题</h3>
+                        <p>
+                            我是缩略图内容
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-primary">确定</a>
+                            <a href="#" class="btn btn-default">取消</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="src/img/b.jpg" alt="">
+                    <div class="caption">
+                        <h3>我是缩略图标题</h3>
+                        <p>
+                            我是缩略图内容
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Action</a>
+                            <a href="#" class="btn btn-default">Action</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <!-- panel+form 搭建登录框 -->
+        <div class="panel panel-primary" style="width:400px;">
+            <div class="panel-heading">
+                <h3 class="panel-title">Login</h3>
+            </div>
+            <div class="panel-body">
+
+                <form action="" method="post" role="form">
+                    <div class="form-group">
+                        <label for="">用户名</label>
+                        <input type="text" class="form-control" placeholder="用户名">
+                        <!-- 提示信息 -->
+
+                        <div class="alert alert-danger">
+                            用户名不能为空！
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">密码</label>
+                        <input type="password" class="form-control" placeholder="密码">
+                        <div class="alert alert-danger">
+                            密码不能为空！
+                        </div>
+                    </div>
+                    <a href="#" class="text-primary">忘记密码?</a>
+                    <button type="submit" class="btn btn-primary pull-right">登录</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <button type="button" class="btn btn-primary">按钮1 <span class="caret"></span></button>
+        <button type="button" class="btn btn-primary">按钮2 <span class="caret"></span></button>
+        <button type="button" class="btn btn-primary">按钮3 <span class="caret"></span></button>
+        <br><br>
+        <div class="btn-group">
+            <!-- 按钮组 默认水平展示-->
+            <button type="button" class="btn btn-primary">按钮1 <span class="caret"></span></button>
+            <button type="button" class="btn btn-primary">按钮2 <span class="caret"></span></button>
+            <button type="button" class="btn btn-primary">按钮3 <span class="caret"></span></button>
+        </div>
+        <br><br>
+        <div class="btn-group-vertical">
+            <!-- 按钮组 竖直展示，此时不加btn-group类-->
+            <button type="button" class="btn btn-primary">按钮1 <span class="caret"></span></button>
+            <button type="button" class="btn btn-primary">按钮2 <span class="caret"></span></button>
+            <button type="button" class="btn btn-primary">按钮3 <span class="caret"></span></button>
+        </div>
+        <br><br>
+        <div class="btn-group dropup">
+            <button type="button" class="btn btn-primary">按钮1 <span class="caret"></span></button>
+        </div>
+        <br><br>
+    </div>
+
+
+    <div class="container github-btn">
+        <!-- github按钮组 -->
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default active">
+                <span class="glyphicon glyphicon-eye-open"></span> Watch
+                <span class="caret"></span>
+            </button>
+            <button type="button" class="btn btn-default">3,054</button>
+        </div>
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default active">
+                <span class="glyphicon glyphicon-star"></span> Unstar
+            </button>
+            <button type="button" class="btn btn-default">36,296</button>
+        </div>
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default active">
+                <span class="glyphicon fork-icon"></span> Fork
+            </button>
+            <button type="button" class="btn btn-default">9,258</button>
+        </div>
+        <br /><br />
+    </div>
+
+    <div class="container" style="height:200px">
+        <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <!-- 带箭头的下拉框 默认情况-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="dropdown pull-right">
+                    <!--pull-right，下拉菜单整体靠右展示-->
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="dropdown open">
+                    <!--加上open，下拉菜单默认展开；btn-block：按钮呈块级铺满展示；-->
+                    <button class="btn btn-block btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                    </button>
+                    <!--dropdown-menu-right：下拉菜单内容靠右展示-->
+                    <ul class="dropdown-menu btn-block dropdown-menu-right">
+                        <!-- btn-block：下拉菜单内容和父级一样宽，也可以使用style定义宽度-->
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="dropdown">
+                    <!--带标题的下拉菜单，带分割线，带选中、禁用状态-->
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">第一部分</li>
+                        <li class="active"><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">第二部分</li>
+                        <li class="disabled"><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <!-- 向上展开的菜单 dropup-->
+                <div class="dropup">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <!-- text-center 下拉菜单内容居中展示-->
+                        <li class="text-center"><a href="#">Action</a></li>
+                        <li class="text-center"><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <style>
+                .my-dropdown button{
+                    border: none;
+                    background: #f6f8f8;
+                }
+                .my-dropdown li{
+                    margin: 10px 0;
+                }
+                .my-dropdown .dropdown-menu{
+                    /* transition: all 0.5s; */
+                    animation: move 0.3s linear;
+                }
+                @keyframes move{
+                    0%{
+                        opacity: 0;
+                        transform: translateY(-10px);
+                    }
+                    100%{
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            </style>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="dropdown my-dropdown">
+                    <button class="btn btn-default dropdown-toggle"  id="drop1" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Plugins
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="/popular/45/plugins-extensions">
+                                <img width="16" height="16" class="m-r-sm" src="https://www.codester.com/static/img/popular-icon-alt.png">
+                                <span>Most Popular</span>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/categories/314/cs-cart-add-ons">
+                                <img width="16" height="16" class="m-r-sm" alt="CS-Cart Add-ons" src="https://www.codester.com/static/uploads/categories/314/icon-alt.png">
+                                <span>CS-Cart</span>
+                            </a>
+                        </li>
+                        <li><a href="/categories/314/cs-cart-add-ons">
+                                <img width="16" height="16" class="m-r-sm" alt="CS-Cart Add-ons" src="https://www.codester.com/static/uploads/categories/314/icon-alt.png">
+                                <span>CS-Cart</span>
+                            </a>
+                        </li>
+                        <li><a href="/categories/314/cs-cart-add-ons">
+                                <img width="16" height="16" class="m-r-sm" alt="CS-Cart Add-ons" src="https://www.codester.com/static/uploads/categories/314/icon-alt.png">
+                                <span>CS-Cart</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>  
+    </div>
+    <div class="container">
+        <h2>使用js触发下拉框</h2>
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" id="drop2" type="button" id="dropdownMenu1">
+                        Dropdown
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div role="tabpanel">
+                    <!-- Nav tabs nav-justified 切页头等分父级宽度 屏幕<768px的情况下，变成竖排排列-->
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#home" data-toggle="tab">home</a>
+                        </li>
+                        <li>
+                            <a href="#tab" data-toggle="tab">tab</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">home的内容</div>
+                        <div class="tab-pane" id="tab">tab的内容</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div>
+                    <!-- nav-justified -->
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active">
+                            <a href="#home">home</a>
+                        </li>
+                        <li class="dropdown"> <!-- 带下拉菜单的选项卡 -->
+                            <a href="#" data-toggle="dropdown">tab <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header">第一部分</li>
+                                <li class="active"><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">第二部分</li>
+                                <li class="disabled"><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <style>
+                .tab-content{
+                    border: 1px solid #ddd;border-top: none;border-radius: 0 0 5px 5px;padding: 50px
+                }
+            </style>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div role="tabpanel">
+                    <!-- Nav tabs nav-justified 切页头等分父级宽度 屏幕<768px的情况下，变成竖排排列-->
+                    <ul class="nav nav-tabs" id="myTabs">
+                        <li class="active">
+                            <a href="#home1" data-toggle="tab">home</a>
+                        </li>
+                        <li>
+                            <a href="#tab1" data-toggle="tab">tab</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active fade in" id="home1">home的内容</div>
+                        <div class="tab-pane in" id="tab1">tab的内容</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div role="tabpanel">
+                    <!-- Nav tabs nav-justified 切页头等分父级宽度 屏幕<768px的情况下，变成竖排排列-->
+                    <ul class="nav nav-tabs" id="">
+                        <li class="active">
+                            <a href="#home2" data-toggle="tab">home</a>
+                        </li>
+                        <li>
+                            <a href="#tab2" data-toggle="tab">tab</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#other" data-toggle="dropdown">other <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#other1" data-toggle="tab">other1</a></li>
+                                <li><a href="#other2" data-toggle="tab">other2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active fade in" id="home2">home的内容</div>
+                        <div class="tab-pane in" id="tab2">tab的内容</div>
+                        <div class="tab-pane in" id="other1">other1</div>
+                        <div class="tab-pane in" id="other2">other2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br /><br />    
+    <div class="media" style="width:600px;">
+        <a class="pull-left" href="#">
+            <img width="" class="media-object" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2208752660,4108194121&fm=55&app=22&f=JPEG?w=121&h=81&s=1DA4CE1450567BC01E0A8486030060BB" alt="Image">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">俄两架苏34战机在日本海相撞,俄军机为何安全事故频发?</h4>
+            <p>据俄罗斯卫星通讯社一月十八日报道经俄罗斯国防部证实两架苏34战斗机十八日上午在日本海空相撞后坠入大海当时两架飞机都没有携带弹药,机组人员被弹... </p>
+        </div>
+    </div>
+    <br /><br />
+    
+    <div class="panel panel-success">
+          <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+                Panel content
+          </div>
+    </div>
+    
+    
+</body>
+
+</html>
+<script>
+    $(function(){
+        var timer = null;
+        if(window.navigator.userAgent.toLowerCase().indexOf("mobile")==-1){
+            $("#drop1").hover(function(){
+                clearTimeout(timer);
+                $(".my-dropdown").addClass("open");
+            },function(){
+                timer = setTimeout(()=>{
+                    $(".my-dropdown").removeClass("open");
+                },200)
+            })
+            $(".dropdown-menu").hover(function(){
+                clearTimeout(timer);
+            },function(){
+                timer = setTimeout(()=>{
+                    $(".my-dropdown").removeClass("open");
+                },200)
+            })
+
+            $("#myTabs a").mouseover(function(){
+                $(this).tab("show");
+            });
+            
+        }
+        $("#drop2").dropdown();  //默认写法
+        //$("#drop2").dropdown("toggle");  //默认隐藏就会展开，默认展开就会隐藏
+    })
+</script>

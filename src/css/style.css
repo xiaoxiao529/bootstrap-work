@@ -16,3 +16,17 @@ body{
 .github-btn button{
     font-weight: 700;
 }
+.user{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-brand{
+    padding: 6px 15px;
+}
+.main-ttile{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
